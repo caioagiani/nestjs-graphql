@@ -1190,13 +1190,33 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
-"@types/express@*", "@types/express@4.17.12", "@types/express@^4.17.12":
+"@types/express-serve-static-core@^4.17.33":
+  version "4.17.41"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.41.tgz#5077defa630c2e8d28aa9ffc2c01c157c305bef6"
+  integrity sha512-OaJ7XLaelTgrvlZD8/aa0vvvxZdUmlCn6MtWeB7TkiKW70BQLc9XEPpDLPdbo52ZhXUCrznlWdCHWxJWtdyajA==
+  dependencies:
+    "@types/node" "*"
+    "@types/qs" "*"
+    "@types/range-parser" "*"
+    "@types/send" "*"
+
+"@types/express@*", "@types/express@^4.17.12":
   version "4.17.12"
   resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.12.tgz#4bc1bf3cd0cfe6d3f6f2853648b40db7d54de350"
   integrity sha512-pTYas6FrP15B1Oa0bkN5tQMNqOcVXa9j4FTFtO8DWI9kppKib+6NJtfTOOLcwxuuYvcX2+dVG6et1SxW/Kc17Q==
   dependencies:
     "@types/body-parser" "*"
     "@types/express-serve-static-core" "^4.17.18"
+    "@types/qs" "*"
+    "@types/serve-static" "*"
+
+"@types/express@4.17.21":
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.21.tgz#c26d4a151e60efe0084b23dc3369ebc631ed192d"
+  integrity sha512-ejlPM315qwLpaQlQDTjPdsUFSc6ZsP4AN6AlWnogPjQ7CVi7PYF3YVz+CY3jE2pwYf7E/7HlDAN0rV2GxTG0HQ==
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "^4.17.33"
     "@types/qs" "*"
     "@types/serve-static" "*"
 
@@ -1344,6 +1364,14 @@
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
   integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
+
+"@types/send@*":
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/@types/send/-/send-0.17.3.tgz#81b2ea5a3a18aad357405af2d643ccbe5a09020b"
+  integrity sha512-/7fKxvKUoETxjFUsuFlPB9YndePpxxRAOfGC/yJdc9kTjTeP5kRCTzfnE8kPUKCeyiyIZu0YQ76s50hCedI1ug==
+  dependencies:
+    "@types/mime" "^1"
+    "@types/node" "*"
 
 "@types/serve-static@*":
   version "1.13.9"
